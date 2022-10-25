@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     public void change(View view) throws InterruptedException {
         ImageView soap = (ImageView) findViewById(R.id.soap);
         ImageView price = (ImageView) findViewById(R.id.price);
-        soap.animate().translationYBy(1000f).setDuration(2000);
+        soap.animate().rotationYBy(180f).setDuration(2000);
 
     }
 
